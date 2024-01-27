@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "start": "node index.cjs",
-    "dev": "nodemon index.cjs"
+    "server": "nodemon index.cjs"
   },
   "keywords": [],
   "author": "",
