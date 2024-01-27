@@ -1,0 +1,25 @@
+{
+  "name": "portone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "stripe": "^14.14.0"
+  },
+  "devDependencies": {
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.4"
+  }
+}
