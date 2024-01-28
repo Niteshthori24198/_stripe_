@@ -46,7 +46,7 @@ This project implements backend APIs for Stripe Payment Gateway integration. It 
 
 | API Endpoint                       | HTTP Method | Description                                      |
 | -----------------------------------|-------------|--------------------------------------------------|
-| `/payment/api/v1/create-payment`      | POST        | Create Intent for Payment                        |
+| `/payment/api/v1/create-payment_intent`      | POST        | Create Intent for Payment                        |
 | `/payment/api/v1/capture-payment_intent/:id` | POST | Capture Payment Intent with specified ID    |
 | `/payment/api/v1/create-refund/:id`   | POST        | Create Refund for Payment with specified ID      |
 | `/payment/api/v1/list-payment_intent` | GET         | Get List of Payment Intents                      |
