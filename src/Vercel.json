@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "Stripe Integration App",
+  "builds": [
+    {
+      "src": "index.cjs",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.cjs"
+    }
+  ]
+}
